@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav-bar{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    border: 5px  solid mediumslateblue;
+    background-color: mediumseagreen;
+    width: 100%;
+    margin-bottom: 25px; 
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+a:hover{
+    color: seashell;
+}
+
+.nav-bar ul li{
+    display: inline;
+    margin: 70px;
+}
+
+.main-container{
+    display: block;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+        
+}
+
+.body-image{
+    height: calc(100vh - 7px);
+    width: 58%;
+    object-fit: cover;
+    border: 5px solid mediumslateblue;
+}
+
+.headline-section{
+    position: absolute;
+    top: 0; 
+    height: 10vh;
+    width: 40%;
+    display: block;
+    left: 60%;
+    padding: 60px;
+    text-align: center;
+    padding-top: 10vh;
+    border: 5px  solid mediumslateblue;
+    background-color: lightgreen;
+    letter-spacing: 2px;    
+}
+
+h1{
+   position: absolute;
+   left: 40%;
+   bottom: 50%;
+}
+
+.text-section{
+    position: absolute;
+    top: 17vh; 
+    height: 65vh;
+    width: 40%;
+    display: block;
+    left: 60%;
+    padding: 60px;
+    text-align: left;
+    padding-top: 10vh;
+    border: 5px  solid mediumslateblue;
+    background-color:mediumseagreen;
+    overflow-y: auto;
+    letter-spacing: 2px;
+    line-height: 25px;
+    
+}
+
+.btn-section{
+    position: absolute;
+    top: 85vh; 
+    height: 14.5vh;
+    width: 40%;
+    display: block;
+    left: 60%;
+    right: 0;
+    padding: 40px;
+    text-align: center;
+    padding-top: 10vh;
+    border: 5px  solid mediumslateblue;
+    align-items: center;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: lightgreen;
+    color: darkolivegreen;
+    font-size: larger;
+}
+
+.btn:hover{
+    color: seashell;
+    background-color: teal;
+}
+
+
